@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "framework": null,
+  "buildCommand": "yarn nx build twenty-shared && yarn nx build twenty-server && yarn nx build twenty-front",
+  "outputDirectory": "packages/twenty-front/build",
+  "installCommand": "yarn install --frozen-lockfile",
+  "functions": {
+    "api/index.js": {
+      "memory": 3008,
+      "maxDuration": 60,
+      "includeFiles": "packages/twenty-server/dist/**"
+    }
+  },
+  "rewrites": [
+    { "source": "/graphql", "destination": "/api/index.js" },
+    { "source": "/metadata", "destination": "/api/index.js" },
+    { "source": "/auth/:path*", "destination": "/api/index.js" },
+    { "source": "/file/:path*", "destination": "/api/index.js" },
+    { "source": "/healthz", "destination": "/api/index.js" },
+    { "source": "/open-api/:path*", "destination": "/api/index.js" },
+    { "source": "/engine/:path*", "destination": "/api/index.js" },
+    { "source": "/((?!.*\\.).*)", "destination": "/index.html" }
+  ]
+}
