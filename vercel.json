@@ -1,5 +1,6 @@
 {
-  "buildCommand": "yarn install && yarn build",
+  "buildCommand": "cd packages/twenty-front && npm install && npm run build",
   "outputDirectory": "packages/twenty-front/dist",
-  "regions": ["sfo1"]
+  "regions": ["sfo1"],
+  "installCommand": "cd packages/twenty-front && npm install"
 }
