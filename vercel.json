@@ -1,5 +1,5 @@
 {
-  "installCommand": "npm install -g corepack && corepack enable && yarn workspaces focus twenty-front --production",
+  "installCommand": "npm install -g corepack && corepack enable && yarn install --immutable --no-optional",
   "buildCommand": "yarn workspace twenty-front build",
   "outputDirectory": "packages/twenty-front/dist"
 }
