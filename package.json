@@ -187,13 +187,13 @@
     "@wyw-in-js/transform@npm:0.7.0": "patch:@wyw-in-js/transform@npm%3A0.7.0#~/.yarn/patches/@wyw-in-js-transform-npm-0.7.0-ba641dc99f.patch"
   },
   "dependenciesMeta": {
-    "canvas@*": {
+    "canvas": {
       "optional": true
     },
-    "sharp@*": {
+    "sharp": {
       "optional": true
     },
-    "@recallai/desktop-sdk@*": {
+    "@recallai/desktop-sdk": {
       "optional": true
     }
   },
