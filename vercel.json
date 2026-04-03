@@ -1,15 +1,19 @@
 {
-  "buildCommand": "npm install -g yarn@4.6.0 && corepack enable && yarn install && yarn build",
-  "installCommand": "npm install -g yarn@4.6.0 && corepack enable && yarn install",
+  "projectSettings": {
+    "installCommand": "corepack enable && yarn install",
+    "buildCommand": "yarn build",
+    "outputDirectory": "packages/twenty-front/dist"
+  },
+  "buildCommand": "yarn build",
   "outputDirectory": "packages/twenty-front/dist",
   "env": {
     "NODE_ENV": "production",
-    "VITE_API_BASE_URL": "@VITE_API_BASE_URL"
+    "VITE_API_BASE_URL": "https://twenty-api.vercel.app",
+    "PG_DATABASE_URL": "@PG_DATABASE_URL",
+    "REDIS_URL": "@REDIS_URL",
+    "SUPABASE_URL": "@SUPABASE_URL",
+    "SUPABASE_SERVICE_ROLE_KEY": "@SUPABASE_SERVICE_ROLE_KEY",
+    "APP_SECRET": "@APP_SECRET"
   },
-  "builds": [
-    {
-      "src": "packages/twenty-front/vercel.json",
-      "use": "@vercel/static-build"
-    }
-  ]
+  "regions": ["sfo1"]
 }
