@@ -1,0 +1,15 @@
+{
+  "buildCommand": "npm install -g yarn@4.6.0 && corepack enable && yarn install && yarn build",
+  "installCommand": "npm install -g yarn@4.6.0 && corepack enable && yarn install",
+  "outputDirectory": "packages/twenty-front/dist",
+  "env": {
+    "NODE_ENV": "production",
+    "VITE_API_BASE_URL": "@VITE_API_BASE_URL"
+  },
+  "builds": [
+    {
+      "src": "packages/twenty-front/vercel.json",
+      "use": "@vercel/static-build"
+    }
+  ]
+}
