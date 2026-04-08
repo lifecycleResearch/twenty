@@ -3,7 +3,7 @@
   "framework": null,
   "buildCommand": "yarn nx build twenty-shared && yarn nx build twenty-server && npx nx run twenty-server:database:migrate:prod && yarn nx build twenty-front",
   "outputDirectory": "packages/twenty-front/build",
-  "installCommand": "npm install -g corepack && corepack enable && YARN_ENABLE_CONSTRAINTS_CHECK=false yarn install",
+  "installCommand": "npm install -g corepack && corepack enable && yarn install",
   "build": {
     "env": {
       "REACT_APP_SERVER_BASE_URL": "https://twenty-crm.vercel.app"
