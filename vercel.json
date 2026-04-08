@@ -3,7 +3,7 @@
   "framework": null,
   "buildCommand": "yarn nx build twenty-shared && yarn nx build twenty-server && yarn nx build twenty-front",
   "outputDirectory": "packages/twenty-front/build",
-  "installCommand": "yarn install --frozen-lockfile",
+  "installCommand": "npm install -g corepack && corepack enable && YARN_ENABLE_CONSTRAINTS_CHECK=false yarn install --immutable",
   "functions": {
     "api/index.js": {
       "memory": 3008,
