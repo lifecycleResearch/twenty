@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../../../src/modules/messaging/message-import-manager/drivers/gmail/constants/messaging-gmail-users-messages-get-batch-size.constant.ts"],"sourcesContent":["export const MESSAGING_GMAIL_USERS_MESSAGES_GET_BATCH_SIZE = 400;\n"],"names":["MESSAGING_GMAIL_USERS_MESSAGES_GET_BATCH_SIZE"],"mappings":";;;;+BAAaA;;;eAAAA;;;AAAN,MAAMA,gDAAgD"}

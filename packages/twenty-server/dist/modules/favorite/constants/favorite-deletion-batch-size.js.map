@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../src/modules/favorite/constants/favorite-deletion-batch-size.ts"],"sourcesContent":["export const FAVORITE_DELETION_BATCH_SIZE = 100;\n"],"names":["FAVORITE_DELETION_BATCH_SIZE"],"mappings":";;;;+BAAaA;;;eAAAA;;;AAAN,MAAMA,+BAA+B"}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../src/engine/workspace-manager/workspace-migration/constant/default-feature-flags.ts"],"sourcesContent":["import { type FeatureFlagKey } from 'twenty-shared/types';\n\nexport const DEFAULT_FEATURE_FLAGS = [] as const satisfies FeatureFlagKey[];\n"],"names":["DEFAULT_FEATURE_FLAGS"],"mappings":";;;;+BAEaA;;;eAAAA;;;AAAN,MAAMA,wBAAwB,EAAE"}

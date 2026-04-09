@@ -1,7 +1,7 @@
 {
   "version": 2,
   "framework": null,
-  "buildCommand": "yarn nx build twenty-shared && yarn nx build twenty-server",
+  "buildCommand": "echo 'Using pre-built artifacts'",
   "outputDirectory": "packages/twenty-front/build",
   "installCommand": "npm install -g corepack && corepack enable && yarn install",
   "build": {

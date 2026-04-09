@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../src/engine/metadata-modules/view/enums/view-calendar-layout.enum.ts"],"sourcesContent":["export enum ViewCalendarLayout {\n  DAY = 'DAY',\n  WEEK = 'WEEK',\n  MONTH = 'MONTH',\n}\n"],"names":["ViewCalendarLayout"],"mappings":";;;;+BAAYA;;;eAAAA;;;AAAL,IAAA,AAAKA,4CAAAA;;;;WAAAA"}
