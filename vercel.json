@@ -1,7 +1,7 @@
 {
   "version": 2,
   "framework": null,
-  "buildCommand": "yarn nx build twenty-shared && yarn nx build twenty-server && yarn nx build twenty-front",
+  "buildCommand": "yarn nx build twenty-shared && yarn nx build twenty-server",
   "outputDirectory": "packages/twenty-front/build",
   "installCommand": "npm install -g corepack && corepack enable && yarn install",
   "build": {

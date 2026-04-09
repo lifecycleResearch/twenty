@@ -1,0 +1,1 @@
+import{fA as s,gh as a,ga as n,gi as c,fG as i}from"./index-Dbs2BKyJ.js";const h=()=>{const t=s(a),[o]=n(c);return{currentUserWorkspaceTwoFactorAuthenticationMethods:i.useMemo(()=>{const r={};return(t?.twoFactorAuthenticationMethodSummary??[]).forEach(e=>r[e.strategy]=e),r},[t]),initiateCurrentUserWorkspaceOtpProvisioning:o}};export{h as u};

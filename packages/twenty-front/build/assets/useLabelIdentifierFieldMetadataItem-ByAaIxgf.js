@@ -1,0 +1,1 @@
+import{fX as a,fY as d}from"./index-Dbs2BKyJ.js";const I=({objectNameSingular:e})=>{const{objectMetadataItem:t}=a({objectNameSingular:e});return{labelIdentifierFieldMetadataItem:d(t)}};export{I as u};

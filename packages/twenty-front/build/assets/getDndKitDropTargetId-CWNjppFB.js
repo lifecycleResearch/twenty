@@ -1,0 +1,1 @@
+import{fG as s,fH as o,h8 as e}from"./index-Dbs2BKyJ.js";const D=s.createContext({isDragging:!1}),c=({navigationMenuItemSection:a,droppableId:t})=>{if(!o(t))return!1;const n=a==="workspace"?e.WORKSPACE_DROPPABLE_PREFIX:e.FAVORITE_DROPPABLE_PREFIX;return t.startsWith(n)},r="::",g=(a,t)=>`${a}${r}${t}`;export{D as N,c,g};

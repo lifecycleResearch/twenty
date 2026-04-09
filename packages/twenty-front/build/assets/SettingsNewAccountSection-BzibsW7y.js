@@ -1,0 +1,1 @@
+import{gm as t,go as i,gp as r,gq as s}from"./index-Dbs2BKyJ.js";import{S as n}from"./SettingsAccountsListEmptyStateCard-BLgUeOES.js";const c=()=>t.jsxs(i,{children:[t.jsx(r,{title:s._({id:"Kcr9Fr"}),description:s._({id:"D8ATlr"})}),t.jsx(n,{})]});export{c as S};

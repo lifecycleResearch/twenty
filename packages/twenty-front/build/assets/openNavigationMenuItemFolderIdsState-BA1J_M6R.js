@@ -1,0 +1,1 @@
+import{fG as t,g6 as e}from"./index-Dbs2BKyJ.js";const o=t.createContext({activeDropTargetId:null,setActiveDropTargetId:()=>{},forbiddenDropTargetId:null,setForbiddenDropTargetId:()=>{},addToNavigationFallbackDestination:null}),r=e({key:"openNavigationMenuItemFolderIdsState",defaultValue:[]});export{o as N,r as o};

@@ -1,0 +1,1 @@
+import{h6 as t,gK as o,h7 as s,gM as e}from"./index-Dbs2BKyJ.js";import{S as r}from"./SettingsNonCompositeFieldTypeConfigs-BRM9Pbnm.js";const S=a=>{if(t(a)||a===o.RELATION)return r[a]?.label;if(s(a))return e[a]?.label};export{S as g};

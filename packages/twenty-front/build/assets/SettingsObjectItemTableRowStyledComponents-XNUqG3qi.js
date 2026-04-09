@@ -1,0 +1,1 @@
+import{fM as c,gm as t,gY as e,fS as s}from"./index-Dbs2BKyJ.js";const a="98.7px",i=`180px ${a} ${a} ${a} 36px`,n=c("div")({name:"StyledStickyFirstCell",class:"s4d6il8",propsAsIs:!1}),p=l=>t.jsx(e,{color:s.font.color.primary,gap:s.spacing[2],...l}),S=l=>t.jsx(e,{align:"center",padding:`0 ${s.spacing[1]} 0 ${s.spacing[2]}`,...l});export{p as S,S as a,a as b,i as c,n as d};

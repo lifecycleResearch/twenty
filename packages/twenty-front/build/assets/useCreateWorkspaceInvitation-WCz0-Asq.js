@@ -1,0 +1,1 @@
+import{g6 as o,ga as i,is as r,g$ as c}from"./index-Dbs2BKyJ.js";const u=o({key:"workspaceInvitationsState",defaultValue:[]}),d=()=>{const[t]=i(r),n=c(u);return{sendInvitation:async a=>await t({variables:a,onCompleted:e=>{n(s=>[...s,...e.sendInvitations.result])}})}};export{d as u,u as w};

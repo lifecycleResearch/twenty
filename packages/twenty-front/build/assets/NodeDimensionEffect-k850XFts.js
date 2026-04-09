@@ -1,0 +1,1 @@
+import{fG as n,fH as o}from"./index-Dbs2BKyJ.js";const f=({elementRef:t,onDimensionChange:e})=>(n.useEffect(()=>{if(!t.current)return;const c=new ResizeObserver(s=>{const r=s[0];o(r)&&e({width:r.contentRect.width,height:r.contentRect.height})});return c.observe(t.current),()=>c.disconnect()},[t,e]),null);export{f as N};

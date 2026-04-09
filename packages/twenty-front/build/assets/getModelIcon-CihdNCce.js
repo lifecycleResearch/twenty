@@ -1,0 +1,1 @@
+import{aE as n,jE as I,jF as a,jG as e,jH as L,jI as c,jJ as o}from"./index-Dbs2BKyJ.js";import{g as j}from"./getProviderIcon-rHPynMR1.js";const r={[o.GPT]:c,[o.CLAUDE]:L,[o.GEMINI]:e,[o.MISTRAL]:a,[o.GROK]:I,FALLBACK:n},A=s=>s in r,C=(s,t)=>s&&A(s)?r[s]:t?j(t):r.FALLBACK;export{C as g};

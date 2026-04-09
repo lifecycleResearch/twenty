@@ -1,0 +1,1 @@
+import{gm as e,h4 as i,h5 as r,gq as n}from"./index-Dbs2BKyJ.js";const m=({status:t})=>e.jsxs(e.Fragment,{children:[t===i.OPERATIONAL&&e.jsx(r,{color:"green",text:n._({id:"8m1COB"}),weight:"medium"}),t===i.OUTAGE&&e.jsx(r,{color:"red",text:n._({id:"yL8XdR"}),weight:"medium"})]});export{m as S};

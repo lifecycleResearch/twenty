@@ -1,0 +1,1 @@
+import{hf as a,gm as r}from"./index-Dbs2BKyJ.js";import{A as o}from"./AddToNavSourceDroppableId-BZIlH_Bm.js";const i=({children:e,isDropDisabled:d})=>{const{ref:n}=a({id:o,disabled:d}),p={innerRef:n,droppableProps:{"data-dnd-group":o},placeholder:null};return r.jsx(r.Fragment,{children:e(p)})};export{i as CommandMenuAddToNavDroppableDndKit};

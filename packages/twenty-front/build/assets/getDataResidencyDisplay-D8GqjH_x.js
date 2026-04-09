@@ -1,0 +1,1 @@
+import{l as a}from"./getProviderIcon-rHPynMR1.js";import{D as o}from"./DataResidencyConfig-D7qAk-ih.js";const l=t=>{if(a(t)){const r=o[t];return`${r.flag} ${r.label}`}return`🌐 ${t.toUpperCase()}`};export{l as g};

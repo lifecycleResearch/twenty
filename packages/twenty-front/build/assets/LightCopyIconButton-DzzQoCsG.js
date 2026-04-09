@@ -1,0 +1,1 @@
+import{hN as i,gd as a,gm as o,ii as e,e8 as l,fM as r}from"./index-Dbs2BKyJ.js";const c=r("div")({name:"StyledButtonContainer",class:"s19qjhqt",propsAsIs:!1}),u=({copyText:t})=>{const{copyToClipboard:n}=i(),{i18n:s,_:d}=a();return o.jsx(c,{children:o.jsx(e,{Icon:l,onClick:()=>{n(t,s._({id:"lyaiTc"}))},"aria-label":s._({id:"RTxUjI"})})})};export{u as L};

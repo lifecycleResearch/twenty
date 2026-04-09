@@ -1,0 +1,1 @@
+import{g0 as e,g1 as o}from"./index-Dbs2BKyJ.js";const T=(t,a)=>{const s=o({objectNameSingular:t}),g=t===e.WorkspaceMember;return t===e.NoteTarget?o({objectNameSingular:e.Note})+a.note?.id:t===e.TaskTarget?o({objectNameSingular:e.Task})+a.task?.id:g||!a.id?"":`${s}${a.id}`};export{T as g};

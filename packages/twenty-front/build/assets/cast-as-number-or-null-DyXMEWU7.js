@@ -1,0 +1,1 @@
+import{fO as n}from"./index-Dbs2BKyJ.js";const s=t=>{if(t===void 0)return!1;if(n.isNumber(t)||n.isNull(t)||t==="")return!0;if(n.isString(t)){const i=+t;if(isNaN(i))return!1;if(n.isNumber(i))return!0}return!1},r=t=>{if(s(t)===!1)throw new Error("Cannot cast to number or null");return n.isNull(t)?null:n.isString(t)?t===""?null:+t:n.isNumber(t)?t:null};export{s as a,r as c};

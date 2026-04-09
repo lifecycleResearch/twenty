@@ -1,0 +1,1 @@
+import{gZ as o,g_ as a,g$ as r,h0 as u}from"./index-Dbs2BKyJ.js";const p=()=>{const{getAuthTokensFromLoginToken:t}=o(),{clearSseClient:s}=a(),e=r(u);return{executeImpersonationAuth:async n=>{e(!1),s(),await t(n),e(!0)}}};export{p as u};

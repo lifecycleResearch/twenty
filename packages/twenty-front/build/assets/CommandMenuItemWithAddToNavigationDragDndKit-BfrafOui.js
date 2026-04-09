@@ -1,0 +1,1 @@
+import{hg as s,gm as t}from"./index-Dbs2BKyJ.js";import{A as d}from"./AddToNavSourceDroppableId-BZIlH_Bm.js";const m=({id:e,dragIndex:a,menuItemContent:o})=>{const{ref:r}=s({id:e,data:{sourceDroppableId:d,sourceIndex:a},disabled:!1,feedback:"clone"});return t.jsx("div",{ref:r,children:o})};export{m as CommandMenuItemWithAddToNavigationDragDndKit};
